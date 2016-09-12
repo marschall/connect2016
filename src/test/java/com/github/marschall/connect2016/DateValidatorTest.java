@@ -1,10 +1,10 @@
 package com.github.marschall.connect2016;
 
-import static org.junit.Assert.*;
+import static com.github.marschall.connect2016.DateValidator.isValidDateMonth;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-
-import static com.github.marschall.connect2016.DateValidator.isValidDateMonth;
 
 public class DateValidatorTest {
 
@@ -31,6 +31,7 @@ public class DateValidatorTest {
 
     assertFalse(isValidDateMonth("1200"));
     assertFalse(isValidDateMonth("1232"));
+    assertFalse(isValidDateMonth("1301"));
 
     assertFalse(isValidDateMonth("1131"));
   }
