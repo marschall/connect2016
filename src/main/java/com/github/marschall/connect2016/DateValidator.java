@@ -10,8 +10,7 @@ public final class DateValidator {
   }
 
   /**
-   * Checks if the given input is in the format month day with each
-   * element zero padded to length 2 ({@code "MMdd"})
+   * Checks if the given input is in the format month day ({@code "MMdd"})
    * eg. {@code "1027"} for October 27th.
    *
    * @param s the input, not {@code null}
