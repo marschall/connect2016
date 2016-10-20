@@ -16,7 +16,7 @@ public final class DateValidator {
    * @param s the input, not {@code null}
    * @return if the input is the expected format
    */
-  public static boolean isValidDateMonth(String s) {
+  public static boolean isValidMonthDay(String s) {
     SimpleDateFormat format = new SimpleDateFormat("MMdd");
     format.setLenient(false);
     try {
