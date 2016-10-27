@@ -27,13 +27,21 @@ public class DateValidatorTest {
 
     assertFalse(isValidMonthDay("0001"));
     assertFalse(isValidMonthDay("0100"));
-    assertFalse(isValidMonthDay("0132"));
+    assertFalse(isValidMonthDay("1032"));
 
     assertFalse(isValidMonthDay("1200"));
     assertFalse(isValidMonthDay("1232"));
     assertFalse(isValidMonthDay("1301"));
-
-    assertFalse(isValidMonthDay("1131"));
   }
 
 }
+
+
+
+
+
+
+
+
+
+
